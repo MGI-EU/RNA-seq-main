@@ -1,0 +1,20 @@
+name: RNAseq
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - fastqc=0.12.1
+  - samtools=1.17
+  - snakemake=7.25.4
+  - fastp=0.23.2
+  - hisat2=2.2.1
+  - qualimap
+  - r-base=4.1.1
+  - bioconductor-deseq2
+  - r-ggplot2=3.3.5
+  - r-data.table=1.14.2
+  - pip
+  - pip:
+    - HTSeq==0.12.4
+    - multiqc==1.15

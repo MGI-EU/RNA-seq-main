@@ -8,7 +8,7 @@ Manuel Delpero
 
 ## Prerequisites
 
-Make sure you have Mamba installed on your system. If you don't have Mamba installed, you can follow the instructions at [mamba.io](https://mamba.readthedocs.io/en/latest/installation.html) to install Mamba.
+Make sure you have Mamba installed on your system. If you don't have Mamba installed, you can follow the instructions at [mamba.io](https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html) to install Mamba.
 
 ## Pipeline Setup
 

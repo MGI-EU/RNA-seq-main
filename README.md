@@ -1,8 +1,10 @@
-# The pipline was completed by Manuel Delpero
-
 # Scalable RNAseq pipeline in Snakemake
 
 This Snakemake pipeline processes and analyzes RNA sequencing data using various tools such as `fastp`, `hisat2`, `samtools`, `fastqc`, and `htseq-count`. The pipeline is configured using the `config.yaml` file, which contains the necessary parameters for running the pipeline. If more than 3 samples per group are provided the pipeline will also automatically run differential gene expression analysis using DESeq2.
+
+# Contributors
+
+Manuel Delpero 
 
 ## Prerequisites
 
@@ -79,3 +81,4 @@ output/
 │   └── Volcano_Plot.pdf
 └── multiqc/
     └── multiqc_report.html
+
